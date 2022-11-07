@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="master.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>BlackJack</header>
+    <br /><br /><br />
+    <main>
+      <h2 id="msg-el">Want to play a round?</h2>
+      <h2 class="card-el">Cards:</h2>
+      <h2 id="sum-el">Sum:</h2>
+      <input
+        class="sub"
+        onclick="startGame()"
+        type="submit"
+        value="Start Game"
+        id="st"
+      />
+      <input
+        class="sub"
+        onclick="newCard()"
+        type="submit"
+        value="New Card"
+        id="nu"
+      />
+      <p id="player-el"></p>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
